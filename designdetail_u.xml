@@ -15,57 +15,17 @@
     <div class="hatena-modulebody">
       <img class="hatena-rsstimes" alt="RSSTIMES" src="http://lab.rails2u.com/rsstimes/rsstimes?fadeout=false&amp;fadeoutcolor=%23444444&amp;fillcolor=%23444444&amp;height=20&amp;linecolor=%23ffffff&amp;mode=rss&amp;month_str=true&amp;text=Hatena%20%20&amp;textcolor=%23444444&amp;uri=http%3A%2F%2Fwww.hatena.ne.jp%2Fmafucode%2Factivities.rss&amp;width=200"/>
       <img class="hatena-rsstimes" alt="RSSTIMES" src="http://lab.rails2u.com/rsstimes/rsstimes?fadeout=false&amp;fadeoutcolor=%23444444&amp;fillcolor=%23444444&amp;height=20&amp;linecolor=%23ffffff&amp;mode=rss&amp;month_str=true&amp;text=Hatena%3A%3AD&amp;textcolor=%23444444&amp;uri=http%3A%2F%2Fd.hatena.ne.jp%2Fmafucode%2Frss&amp;width=200"/>
-<br/>ページビュー:<hatena name="pv"/><br/>
+<br/><div>ページビュー:<hatena name="pv"/></div><br/>
 <!-- shinobi ct2 -->
 <a href="http://ct2.otogirisou.com/gg/1601718" target="_blank">
 <img src="http://ct2.otogirisou.com/ll/1601718" border="0" alt="カウンター" /></a><br/>
-<!-- /shinobi ct2 --><img style="display:none;" src="http://x4.kaginawa.jp/bin/ll?059194600" border="0"/>
+<!-- /shinobi ct2 -->
+<img style="display:none;" src="http://x4.kaginawa.jp/bin/ll?059194600" border="0"/>
 <a href="http://d.hatena.ne.jp/mafucode/20121016/1350378850" style="font-size: xx-small;" >詳細な統計情報＞＞</a>
 </div>
   </div>
 
   <hatena name="profile" template="hatena-module"/>
-  <!--<a href="http://twitter.com/mafucode/"><img src="http://img.f.hatena.ne.jp/images/fotolife/m/mafucode/20100323/20100323190918.gif" alt="twitter/mafucode"></a><br/>-->
-  <!--<img src="http://ww14.atpages.jp/mafu/cgi-bin/ac/ac.cgi?m=rec&url=http://d.hatena.ne.jp/mafucode*" >
-<div ID="HPMP">
-<img class="hpmpimg" src="http://www14.atpages.jp/mafu/name.jpg" width="128" height="32"/><br/>
-<img class="hpmpimg" src="http://www14.atpages.jp/mafu/cgi-bin/hpmp/hpmp.cgi?img=hp" width="128" height="20"/><br/>
-<img class="hpmpimg" src="http://www14.atpages.jp/mafu/cgi-bin/hpmp/hpmp.cgi?img=mp" width="128" height="24"/><br/>
-<img class="hpmpimg" src="http://www14.atpages.jp/mafu/foot.jpg" width="128" height="52"/>
-</div>-->
-  
-  <!--<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 6000,
-  width: 200,
-  height: 282,
-  theme: {
-    shell: {
-      background: '#9966cc',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#663366',
-      color: '#ddddff',
-      links: '#ffcc33'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: false,
-    behavior: 'all'
-  }
-}).render().setUser('mafucode').start();
-</script>-->
-  <!--<script src="https://iddy.jp/profile/mafucode/linktool/" type="text/javascript" charset="utf-8"></script>-->
   <hatena name="comment" template="hatena-module"/>
   <hatena name="trackback" template="hatena-module"/>
   <hatena name="calendar2" template="hatena-module"/>
@@ -73,58 +33,10 @@ new TWTR.Widget({
   <hatena name="sectioncategory" target="archive" template="hatena-module"/>
   <hatena name="rss" url="https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=mafucode" template="hatena-module" titlelength="10" listlimit="5" dateformat="%m-%d %H:%i" desclength="320"/>
   <hatena name="searchform" template="hatena-module"/>
-  <div class="hatena-module">
-      <!--<div class="hatena-widget widget-blog-pet">
-        <script language="JavaScript" type="text/javascript" src="http://www.blogpet.net/js/39201de903ab1cd46b5161f9e69e9ff6.js" charset="UTF-8"></script>
-      </div>-->
-    </div>
-<!--  <div class="hatena-module">
-    <div class="hatena-moduletitle">参加中のリング</div>
-	  <div class="hatena-modulebody">
-      <hatena name="ring" rid="airrlde" sid="5523779" mode="text" template="hatena-module"/>
-      <hatena name="ring" rid="finalfantasy" sid="5523779" mode="text" template="hatena-module"/>
-      <hatena name="ring" rid="programming" sid="5523779" mode="text" template="hatena-module"/>
-      <hatena name="ring" rid="research" sid="5523779" mode="text" template="hatena-module"/>
-      <hatena name="ring" rid="sleipnir" sid="5523779" mode="text" template="hatena-module"/>
-	  </div>
-	</div>-->
-	<!--
-	<div class="hatena-widget widget-hatena-ring"><script type="text/javascript"
-  src="http://ring.hatena.ne.jp/showlogo?rid=research&sid=5523779&mode=thumbnail">
-</script>
-<noscript>
-<a href="http://research.ring.hatena.ne.jp/"><img src="http://ring.hatena.ne.jp/images/logo/r/research/research_s.jpg" border=0></a>
-<a href="http://research.ring.hatena.ne.jp/go?type=random&sid=5523779">random</a>
-<a href="http://research.ring.hatena.ne.jp/">Hatena Ring research</a>
-</noscript>
+<div class="hatena-module">
+  <div class="hatena-moduletitle"></div>
+  <div class="hatena-modulebody"></div>
 </div>
-	<div class="hatena-widget widget-hatena-ring"><script type="text/javascript"
-  src="http://ring.hatena.ne.jp/showlogo?rid=programming&sid=5523779&mode=thumbnail">
-</script>
-<noscript>
-<a href="http://programming.ring.hatena.ne.jp/"><img src="http://ring.hatena.ne.jp/images/logo/p/programming/programming_s.jpg" border=0></a>
-<a href="http://programming.ring.hatena.ne.jp/go?type=random&sid=5523779">random</a>
-<a href="http://programming.ring.hatena.ne.jp/">Hatena Ring programming</a>
-</noscript>
-</div>
-	<div class="hatena-widget widget-hatena-ring"><script type="text/javascript"
-  src="http://ring.hatena.ne.jp/showlogo?rid=airrlde&sid=5523779&mode=thumbnail">
-</script>
-<noscript>
-<a href="http://airrlde.ring.hatena.ne.jp/"><img src="http://ring.hatena.ne.jp/images/logo/a/airrlde/airrlde_s.jpg" border=0></a>
-<a href="http://airrlde.ring.hatena.ne.jp/go?type=random&sid=5523779">random</a>
-<a href="http://airrlde.ring.hatena.ne.jp/">Hatena Ring airrlde</a>
-</noscript>
-</div>
-	<div class="hatena-widget widget-hatena-ring"><script type="text/javascript"
-  src="http://ring.hatena.ne.jp/showlogo?rid=sleipnir&sid=5523779&mode=thumbnail">
-</script>
-<noscript>
-<a href="http://sleipnir.ring.hatena.ne.jp/"><img src="http://ring.hatena.ne.jp/images/logo/s/sleipnir/sleipnir_s.jpg" border=0></a>
-<a href="http://sleipnir.ring.hatena.ne.jp/go?type=random&sid=5523779">random</a>
-<a href="http://sleipnir.ring.hatena.ne.jp/">Hatena Ring sleipnir</a>
-</noscript>
-</div>-->
 </div>
 <!-- ページのフッタ　ここまで -->
 </u>
