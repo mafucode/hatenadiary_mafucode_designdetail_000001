@@ -1,0 +1,109 @@
+/*　共通　*/
+/* 【カテゴリ】 */
+div.section p.sectionheader span.sectioncategory a.sectioncategory:before,
+ul.hatena-sectioncategory li a:before,
+div#archive-category a.category:before {
+    color: #3300FF;
+    content: "【";
+}
+div.section p.sectionheader span.sectioncategory a.sectioncategory:after,
+ul.hatena-sectioncategory li a:after,
+div#archive-category a.category:after {
+    color: #3300FF;
+    content: "】";
+}
+
+/* サイドバーここから */
+.hatena-module .hatena-modulebody{
+	height:0;
+	overflow:hidden;
+	padding:0;
+}
+.hatena-module:hover .hatena-modulebody{
+	height:auto;
+	overflow:visible;
+	padding:7px;
+}
+/* サイドバーここまで */
+
+
+
+/* 本文ここから */
+div.twitter-tweet:hover{
+    background-color:#E8F0F5;
+}
+
+
+/* ついったーに「ｔ」の画像をつける */
+.twitter-tweet-info-permalink:before{content:url(http://d.hatena.ne.jp/images/icon-twitter.png);}
+li.archive.archive-section:hover{background-color:#e0e0e0;}
+
+/* 本文ここまで */
+
+html body div#simple-header {
+	background-color: #cc00ff;
+}
+html body div#simple-header li {
+	font-style: italic;
+}
+body h1{
+	color: #000000!important;background-image:url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20120316/20120316232618_original.jpg?1331908015);
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+h1 a[href="http://d.hatena.ne.jp/mafucode/"]{
+	background-color:#000000;
+}
+
+/*body{
+	background-image:url(http://img.f.hatena.ne.jp/images/fotolife/m/mafucode/20120321/20120321133351.jpg)
+	;background-repeat:repeat;
+}*/
+
+
+/* 記事一覧ここから */
+/*最新にさいしんの画像*/
+ul.archives li:first-child li:first-child {
+    /*list-style-image: url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20121125/20121125164532.gif);*//*枠なし*/
+    list-style-image: url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20121125/20121125170915.gif);
+}
+
+/*   日付のリンクの範囲っつーか幅を広げる */
+.archive.archive-date > a{
+     width: 100%;
+     display:block;
+}
+/*   薄い色になるところ */
+.archives .archive.archive-date:hover {
+     background-color: #F0F0F0;
+}
+/*   濃い色になるところ */
+li.archive.archive-section:hover,.archive.archive-date > a:hover {
+     background-color: #E0E0E0;
+}
+/* 記事一覧ここまで */
+/*  */
+/* シンタックスハイライト */
+.day .section pre.syntax-highlight {
+    font-size: 9pt;
+}
+/* 広告非表示ここから */
+
+/*デフォで入る広告*/
+/*#google_afc_user{
+	display:none;
+}
+#google_afc_user_container{
+	display:none;
+}*/
+
+/*ＮＩＮＪＡ（ｒｙのカウンターの広告*/
+/* #NINCtCMSection{
+	display:none;
+}
+ */
+/* 広告非表示ここまで */
+
+li a.sectioncategory,
+li a.category{display:inline;}
