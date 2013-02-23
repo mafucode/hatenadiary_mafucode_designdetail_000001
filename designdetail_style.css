@@ -99,11 +99,36 @@ li.archive.archive-section:hover,.archive.archive-date > a:hover {
 }*/
 
 /*ＮＩＮＪＡ（ｒｙのカウンターの広告*/
-/* #NINCtCMSection{
+#NINCtCMSection{
 	display:none;
 }
- */
+
 /* 広告非表示ここまで */
 
 li a.sectioncategory,
 li a.category{display:inline;}
+
+
+//この広告は30日以（ｒｙ　ここから
+#google_afc_user {
+     display: block;
+     width: 300px;
+}
+#google_afc_user:after, #google_afc_user:before {
+     border-left: medium solid;
+     border-right: medium solid;
+     color: #BB77FF; // 色はここで変える
+     content: "この広告は30日以内に更新があっても表示されます。"; // 文言はここで変える
+     display: block;
+     font-size: x-small;
+}
+
+#google_afc_user:after {
+     border-bottom: medium solid;
+}
+
+#google_afc_user:before {
+     border-top: medium solid;
+}
+
+//この広告は30日以（ｒｙ　ここまで
