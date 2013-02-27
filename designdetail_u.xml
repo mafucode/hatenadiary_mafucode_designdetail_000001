@@ -34,8 +34,9 @@
   <hatena name="rss" url="https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=mafucode" template="hatena-module" titlelength="10" listlimit="5" dateformat="%m-%d %H:%i" desclength="320"/>
   <hatena name="searchform" template="hatena-module"/>
 <div class="hatena-module">
-  <div class="hatena-moduletitle"></div>
-  <div class="hatena-modulebody"></div>
+  <div class="hatena-moduletitle">どこかにとぶりんく</div>
+  <div class="hatena-modulebody"><!--
+--><a href="http://f.hatena.ne.jp/mafucode/"><img alt="f:id:mafucode" style="width:100%" src="https://pbs.twimg.com/media/BEFwTcrCUAAe7yK.png:large"/></a><a href=""><img src="https://pbs.twimg.com/media/BEF1btsCQAAJQHx.png:large" style="width:100%" alt="@mafucode" /></a></div>
 </div>
 </div>
 <!-- ページのフッタ　ここまで -->
