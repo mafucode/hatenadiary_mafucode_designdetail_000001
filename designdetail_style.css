@@ -66,7 +66,8 @@ h1 a[href="http://d.hatena.ne.jp/mafucode/"]{
 /*最新にさいしんの画像*/
 ul.archives li:first-child li:first-child {
     /*list-style-image: url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20121125/20121125164532.gif);*//*枠なし*/
-    list-style-image: url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20121125/20121125170915.gif);
+    /*list-style-image: url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20121125/20121125170915.gif);*/
+	list-style-image: url(http://d.hatena.ne.jp/images/diary/mafucode/favicon.ico);
 }
 
 /*   日付のリンクの範囲っつーか幅を広げる */
