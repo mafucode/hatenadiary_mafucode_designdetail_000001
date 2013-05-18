@@ -83,6 +83,12 @@ ul.archives li:first-child li:first-child {
 li.archive.archive-section:hover,.archive.archive-date > a:hover {
      background-color: #E0E0E0;
 }
+
+/*   カテゴリが日記の記事をアイコンで強調する */
+a[href="/mafucode/archive?word=%2A%5B%C6%FC%B5%AD%5D"]:before{content:url(http://d.hatena.ne.jp/images/diary/mafucode/favicon.ico);}
+/*a[href="/mafucode/archive?word=%2A%5B%C6%FC%B5%AD%5D"]{background-color:#ffcc99;}*/
+
+
 /* 記事一覧ここまで */
 /*  */
 /* シンタックスハイライト */
