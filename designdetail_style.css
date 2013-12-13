@@ -46,13 +46,14 @@ html body div#simple-header {
 html body div#simple-header li {
 	font-style: italic;
 }
+/* タイトル */
 body h1{
 	color: #000000!important;background-image:url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20120316/20120316232618_original.jpg?1331908015);
 	-moz-background-size:100% 100%;
 	background-size:100% 100%;
 	background-repeat:no-repeat;
 }
-h1 a[href="http://d.hatena.ne.jp/mafucode/"]{
+h1 a[href="http://d.hatena.ne.jp/mafucode/"],h1 a[href="/mafucode/"]{
 	background-color:#000000;
 }
 
@@ -138,4 +139,13 @@ li a.category{display:inline;}
      border-top: medium solid;
 }
 
-//この広告は30日以（ｒｙ　ここまで
+/* この広告は30日以（ｒｙ　ここまで */
+
+/* 記事の背景ここから */
+#days div.day div.body div.section p:not([class]) {
+    background-image: url(http://cdn-ak.f.st-hatena.com/images/fotolife/m/mafucode/20131213/20131213180845.png?1386925741);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* 記事の背景ここまで */

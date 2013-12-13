@@ -31,7 +31,7 @@
   <hatena name="calendar2" template="hatena-module"/>
   <hatena name="section" template="hatena-module"/>
   <hatena name="sectioncategory" target="archive" template="hatena-module"/>
-  <hatena name="rss" url="https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=mafucode" template="hatena-module" titlelength="10" listlimit="5" dateformat="%m-%d %H:%i" desclength="320"/>
+  <!--<hatena name="rss" url="https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=mafucode" template="hatena-module" titlelength="10" listlimit="5" dateformat="%m-%d %H:%i" desclength="320"/>-->
   <hatena name="searchform" template="hatena-module"/>
 <div class="hatena-module">
   <div class="hatena-moduletitle">どこかにとぶりんく</div>
